@@ -21,3 +21,12 @@ public:
 
 
 class BinaryTree
+{
+public: 
+    node *ROOT;
+
+    BinaryTree()
+    {
+        ROOT = NULL; // Initializing ROOT to nul
+    }
+
